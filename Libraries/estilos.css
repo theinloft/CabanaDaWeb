@@ -1,0 +1,154 @@
+ul li{
+list-style-type: none;
+display: inline-block;
+padding-left: 15%;
+font-family: monospace;
+font-weight: bold;
+font-size: 150%;
+
+
+
+
+}
+
+.menu{
+	background-color: rgba(94, 0, 122, 1); /*rgba(103, 118, 218, 1);*/
+	padding: 5px 5px 5px 5px;
+	height: 70px;
+	border-radius: 10px;
+
+
+}
+
+.img{
+	float: left;
+	border: 5px solid rgba(94, 0, 122, 1);
+}
+ul li{
+	padding-left: 10%;
+}
+
+ul li a{
+	color:white;
+	text-decoration: none;
+	text-decoration-style: none;
+
+
+}
+.parallax {
+	padding-top: 10px;
+ 
+    background-image: url("../images/escritorio.jpg");
+
+   
+    min-height: 500px; 
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+	padding-top: 10px;
+ 
+    background-image: url("../images/diário.jpeg");
+
+   
+    min-height: 500px; 
+
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+	background-color: rgba(15, 72, 163, 1);
+	min-height: 250px;
+
+}
+.bordasuperior-footer{
+	background-color:rgba(82, 188, 250, 0.9);
+	height: 10px;
+}
+.bordainferior-footer{
+	height: 250px;
+	background-color: rgba(3, 44, 109, 0.9);
+}
+a:hover{
+	color: rgba(223, 7, 50, 0.9);
+}
+p{
+	font-weight: bold; 
+	color:white;
+	font-family: monospace;
+	text-align: center;
+	font-size: 150%;
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+	.sobreposicao2{
+		background-color: rgb(158,98,162);
+	}
+	.sobreposicao3{
+	border-image:5px solid black;
+	padding-left: 45px;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+	padding-top: 15px;
+	}
+
+	.sobreposicao1{
+	height: 250px;
+	background-color: rgba(47, 55, 111, 1);
+	padding-top: 15px;
+}
+
+	.parallax {
+	padding-top: 10px;
+ 
+    background-image: url("../images/escritorio.jpg");
+
+   
+    min-height: 500px; 
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+	padding-top: 10px;
+ 
+    background-image: url("../images/diário.jpeg");
+
+   
+    min-height: 500px; 
+
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+}
+
+
